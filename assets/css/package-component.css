@@ -1,0 +1,108 @@
+
+.package-main{
+  width: 1010px;
+}
+
+.package-main:before{
+  display: table;
+  content: " ";
+}
+
+/* Package */
+.package{  
+  overflow: hidden;
+  height: 304px;
+  padding: 0 10px;
+}
+
+.package .content{
+  background-color: #e2e2e2;
+  display: block;
+  height: 298px;
+  overflow: hidden;
+  position: relative;
+  margin-left: -10px;
+}
+
+.package .package-content{
+  text-align: left;
+  overflow: hidden;
+  position: relative;
+  width: 50%;
+  display: block;
+  height: 300px;
+  padding: 20px 24px;
+}
+
+.origin{
+  font-size: 14px;
+  margin-top: 20px;
+  display: block;
+}
+
+.package-img{
+  width: 50%;
+}
+
+
+.package-title{
+    color: #0079ca;
+    font-size: 25px;
+    margin: 5px 0;
+    text-decoration: none;
+    word-break: break-word;
+}
+
+.package-description{
+  margin-bottom: 15px;  
+  overflow-y: hidden;
+  line-height: 1.4;
+  margin: 15px 0px 0px;
+}
+
+.package-rate{
+  font-size: 14px;
+  line-height: 15px;
+  color: #757575;  
+  margin: 20px 0px 5px;
+  display: block;
+}
+
+.package-price{  
+  color: #0079ca;
+  font-size: 35px;
+  display: block;
+  margin-top: -6px;
+}
+
+.package-cta a{
+    color: #0079ca;
+    position: absolute; 
+    display: block;
+    right: 20px;
+    bottom: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
+/* Package Single*/
+
+.package-list{
+  width: 1010px;
+  margin: 15px 0px;  
+}
+
+
+.package-single{
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.package-single .package-content{
+  background-color: #e2e2e2;
+  padding: 15px 15px;
+  position: relative;
+}

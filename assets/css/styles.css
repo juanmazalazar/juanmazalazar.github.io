@@ -1,0 +1,70 @@
+/* General Rules */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  color:#777;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Open Sans',sans-serif;
+  font-size: 13px;
+}
+
+.container{
+  width: 1030px;
+  margin: 0px auto;
+  /* padding-right: 15px; */
+  /* padding-left: 15px; */
+}
+
+.left{
+  float: left;
+}
+
+.right{
+  float: right;
+}
+
+.clearfix{
+  clear: both;
+}
+
+.col-6{
+  width: 50%;
+}
+
+
+.col-3{
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Main */
+#main{
+  margin: 20px auto;
+}
+
+
+/* Slide */
+
+.slide-section{
+  margin: 0px auto;
+  width: 1010px;
+  
+}
+
+
+/* Footer */
+
+#footer {
+    background-color: #eee;
+    padding: 10px 0;
+    clear: both;
+    width: 100%;
+    z-index: 100;
+    min-height: 200px;
+}
